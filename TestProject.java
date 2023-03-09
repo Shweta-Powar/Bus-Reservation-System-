@@ -120,7 +120,7 @@ case 2:   //Login
 			 while(str2=="Invalid") {
 			 System.out.println("EmailId is Invalid enter again:");
 			 emailid=sc.next();
-			 str=admininfo.emailValidation(emailid);
+			 str2=admininfo.emailValidation(emailid);
 			 }
 			System.out.println("Enter Password: ");
 			String password1=sc.next();
@@ -446,7 +446,7 @@ case 2:	 //Passenger
 				do {
 					System.out.println("1.Add Booking Details");
 					System.out.println("2.Update Booking Details");
-					System.out.println("3.View Booking Details");
+					System.out.println("3.View All Booking Details");
 		            System.out.println("4.Delete Booking Details");
 					System.out.println("----------------------------");
 					int search1=sc.nextInt();
